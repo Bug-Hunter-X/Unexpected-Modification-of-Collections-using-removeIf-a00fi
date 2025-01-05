@@ -1,0 +1,1 @@
+This repository demonstrates an unexpected behavior when using the `removeIf` function in Kotlin with mutable collections. The `removeIf` function modifies the original collection directly.  The example shows how this can lead to unintended side effects if the original collection needs to be preserved.  The solution provides an approach to avoid modifying the original collection.
